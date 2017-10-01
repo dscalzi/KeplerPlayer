@@ -1,0 +1,15 @@
+{
+  "name": "keplerplayer",
+  "version": "1.0.0",
+  "description": "an audio player for raspberry pi",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "aplay": "^1.1.0",
+    "node-gpio": "git+https://github.com/paulvarache/node-gpio.git#v1"
+  }
+}
